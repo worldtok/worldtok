@@ -1,0 +1,50 @@
+.footer .foot-subscribe input::-webkit-input-placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(229 231 235 / var(--tw-text-opacity))
+}
+
+.footer .foot-subscribe input::-moz-placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(229 231 235 / var(--tw-text-opacity))
+}
+
+.footer .foot-subscribe input:-ms-input-placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(229 231 235 / var(--tw-text-opacity))
+}
+
+.footer .foot-subscribe input::-ms-input-placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(229 231 235 / var(--tw-text-opacity))
+}
+
+.footer .foot-subscribe input::placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(229 231 235 / var(--tw-text-opacity))
+}
+
+.bg-dark-footer {
+    background-color: #190946;
+    li a{
+        color: #9b86a2 !important;
+        transition: all 0.3s ease-in-out;
+        display: inline-block;
+        &:hover{
+            color: #fe00ec !important;
+            transform: translateY(-2px);
+        }
+    }
+    .footer-base{
+        background-color: #5e35b1 !important;
+    }
+}
+
+.text-dark-footer {
+    --tw-text-opacity: 1 !important;
+    color: rgb(25 33 50 / var(--tw-text-opacity)) !important
+}
+
+.dark .dark\:bg-dark-footer {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(25 33 50 / var(--tw-bg-opacity)) !important
+}

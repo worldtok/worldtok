@@ -1,0 +1,67 @@
+
+.swiper-slider-hero .swiper-container,
+.swiper-slider-hero .swiper-slide .slide-inner {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%
+}
+
+.swiper-slider-hero .swiper-container .swiper-button-next,
+.swiper-slider-hero .swiper-container .swiper-button-prev {
+    margin-top: -30px;
+    height: 35px;
+    width: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255 255 255 / .5);
+    background-color: transparent;
+    background-image: none;
+    line-height: 35px
+}
+
+.swiper-slider-hero .swiper-container .swiper-button-next:before,
+.swiper-slider-hero .swiper-container .swiper-button-prev:before {
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-family: "Material Design Icons"
+}
+
+.swiper-slider-hero .swiper-container .swiper-button-next:hover,
+.swiper-slider-hero .swiper-container .swiper-button-prev:hover {
+    --tw-border-opacity: 1;
+    border-color: rgb(79 70 229 / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(79 70 229 / var(--tw-bg-opacity))
+}
+
+.swiper-slider-hero .swiper-container .swiper-button-prev:before {
+    content: "󰅁"
+}
+
+.swiper-slider-hero .swiper-container .swiper-button-next:before {
+    content: "󰅂"
+}
+
+.swiper-slider-hero .swiper-pagination-bullet {
+    background-color: transparent;
+    --tw-text-opacity: 1;
+    color: rgb(249 250 251 / var(--tw-text-opacity))
+}
+
+.swiper-slider-hero .swiper-pagination-bullet-active {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.swiper-slider-hero .swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-slider-hero .swiper-pagination-custom,
+.swiper-slider-hero .swiper-pagination-fraction {
+    bottom: 45px
+}
+
+.swiper-slider-hero .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 13px
+}

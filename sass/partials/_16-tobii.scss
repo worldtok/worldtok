@@ -1,0 +1,20 @@
+
+.tobii>button.tobii__close svg,
+.tobii>button.tobii__next svg,
+.tobii>button.tobii__prev svg {
+    height: 2.25rem;
+    width: auto
+}
+
+.tobii__counter {
+    font-size: 1rem;
+    line-height: 1.5rem
+}
+
+.tobii-zoom {
+    display: block
+}
+
+.tobii-zoom__icon {
+    display: none
+}

@@ -1,0 +1,29 @@
+.cookie-popup-not-accepted {
+    display: block;
+    -webkit-animation: .5s forwards cookie-popup-in;
+    animation: .5s forwards cookie-popup-in
+}
+
+.cookie-popup-accepted {
+    display: none
+}
+
+@-webkit-keyframes cookie-popup-in {
+    from {
+        bottom: -6.25rem
+    }
+
+    to {
+        bottom: 1.25rem
+    }
+}
+
+@keyframes cookie-popup-in {
+    from {
+        bottom: -6.25rem
+    }
+
+    to {
+        bottom: 1.25rem
+    }
+}

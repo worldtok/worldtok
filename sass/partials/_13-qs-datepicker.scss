@@ -1,0 +1,70 @@
+
+.qs-datepicker-container {
+    border-color: inherit;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity))
+}
+
+.dark .qs-datepicker-container {
+    --tw-border-opacity: 1;
+    border-color: rgb(31 41 55 / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity))
+}
+
+.qs-datepicker-container .qs-controls {
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity))
+}
+
+.dark .qs-datepicker-container .qs-controls {
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 41 59 / var(--tw-bg-opacity))
+}
+
+.qs-datepicker-container .qs-controls .qs-month-year {
+    font-size: 15px;
+    font-weight: 600
+}
+
+.dark .qs-datepicker-container .qs-controls .qs-month-year {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.qs-datepicker-container .qs-controls .qs-month-year:hover {
+    border-radius: .375rem;
+    border-bottom-width: 1px;
+    border-color: inherit;
+    outline-color: inherit
+}
+
+.qs-squares .qs-square {
+    height: 34px;
+    width: 34px;
+    font-size: 15px;
+    --tw-text-opacity: 1;
+    color: rgb(148 163 184 / var(--tw-text-opacity))
+}
+
+.qs-squares .qs-square.qs-current,
+.qs-squares .qs-square:not(.qs-empty):not(.qs-disabled):not(.qs-day):not(.qs-active):hover {
+    text-decoration: none;
+    border-radius: 30px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(79 70 229 / var(--tw-bg-opacity));
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.qs-squares .qs-day {
+    font-weight: 400;
+    --tw-text-opacity: 1;
+    color: rgb(15 23 42 / var(--tw-text-opacity))
+}
+
+.dark .qs-squares .qs-day {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}

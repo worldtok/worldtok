@@ -1,0 +1,9 @@
+.registration-form {
+    position: relative
+}
+
+.registration-form .choices[data-type*=select-one] .choices__inner,
+.registration-form .form-input,
+.registration-form .submit-btn {
+    border-radius: .5rem
+}

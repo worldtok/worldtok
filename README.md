@@ -1,16 +1,25 @@
-### Hi there 👋
+# TECH-SASS BY DAZITO-worldtok
 
-<!--
-**worldtok/worldtok** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## HOW TO HOST
 
-Here are some ideas to get you started:
+Upload everything inside the public path inside your public directory and your website will be live
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Building from development files
+
+```$
+npm i
+```
+
+to install node modules
+
+```$
+npm run dev
+```
+
+to compile
+
+```$
+npm run prod
+```
+
+to build for production

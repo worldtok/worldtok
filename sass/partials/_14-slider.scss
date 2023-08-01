@@ -1,0 +1,22 @@
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-360px * 6));
+        transform: translateX(calc(-360px * 6))
+    }
+}
+
+.slider:after {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg)
+}
+
+.slider .slide-track {
+    -webkit-animation: 120s linear infinite scroll;
+    animation: 120s linear infinite scroll;
+    width: calc(360px * 20)
+}

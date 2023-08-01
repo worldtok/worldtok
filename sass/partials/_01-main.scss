@@ -1,0 +1,195 @@
+// position our conatiner
+.container {
+    position: relative
+}
+p {
+    line-height: 1.625
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.5
+}
+
+::-moz-selection {
+    background-color: rgb(79 70 229 / .9);
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+::selection {
+    background-color: rgb(79 70 229 / .9);
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.btn {
+    display: inline-block;
+    border-width: 1px;
+    padding: .5rem 1.25rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .025em;
+    -webkit-transition-property: color, background-color, border-color, fill, stroke, opacity, -webkit-text-decoration-color, -webkit-box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.btn.btn-lg {
+    padding: .625rem 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem
+}
+
+.btn.btn-sm {
+    padding: 5px 1rem;
+    font-size: .875rem;
+    line-height: 1.25rem
+}
+
+.btn.btn-icon {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 2.25rem;
+    width: 2.25rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem
+}
+
+.btn.btn-icon.btn-lg {
+    height: 3rem;
+    width: 3rem
+}
+
+.btn.btn-icon.btn-sm {
+    height: 2rem;
+    width: 2rem
+}
+
+.btn.btn-link {
+    position: relative;
+    border-style: none;
+    padding: 0
+}
+
+.btn.btn-link::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 0;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    --tw-content: "";
+    content: var(--tw-content)
+}
+
+.btn.btn-link:hover::after {
+    right: auto;
+    content: var(--tw-content);
+    width: 100%
+}
+
+.breadcrumb .breadcrumb-item::before {
+    --tw-content: "";
+    content: var(--tw-content)
+}
+
+.breadcrumb .breadcrumb-item::after {
+    padding-left: 5px;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    content: var(--tw-content);
+    --tw-text-opacity: 1;
+    color: rgb(22 28 45 / var(--tw-text-opacity))
+}
+
+.breadcrumb .breadcrumb-item:last-child::after {
+    content: var(--tw-content);
+    display: none
+}
+
+.dark .breadcrumb .breadcrumb-item::after {
+    content: var(--tw-content);
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.breadcrumb .breadcrumb-item:after {
+    content: "󰅂" !important;
+    font-family: "Material Design Icons"
+}
+
+.breadcrumb.breadcrumb-light .breadcrumb-item::after {
+    content: var(--tw-content);
+    color: rgb(255 255 255 / .5)
+}
+
+
+.tagline {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    padding: 13px 0;
+    font-size: .875rem;
+    line-height: 1.25rem
+}
+
+@media screen and (max-width:575px) {
+    .tagline {
+        display: none
+    }
+
+    .tagline-height {
+        top: 0 !important
+    }
+}
+
+@media (min-width:576px) {
+    .tagline-height {
+        top: 47px !important
+    }
+}
+
+
+.shape>svg {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    -webkit-transform-origin: top center;
+    transform-origin: top center
+}
+
+.shape.marketing-hero {
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%)
+}
