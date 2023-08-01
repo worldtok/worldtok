@@ -1,25 +1,5 @@
-# TECH-SASS BY DAZITO-worldtok
+# WORLDTOK
 
-## HOW TO HOST
+## Welcome to my profile
 
-Upload everything inside the public path inside your public directory and your website will be live
-
-## Building from development files
-
-```$
-npm i
-```
-
-to install node modules
-
-```$
-npm run dev
-```
-
-to compile
-
-```$
-npm run prod
-```
-
-to build for production
+I'm a professional Developer with a focus on website development and bot development using `nodeJs`
